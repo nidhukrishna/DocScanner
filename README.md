@@ -3,22 +3,15 @@ This project uses a custom-trained YOLOv8 object detection model in combination 
 
 It first locates a document within an image and then applies a series of image processing techniques to find its exact corners. 
 
-Tech Stack
-Python
+Tech Stack:
+   
+   Python
+   OpenCV
+   YOLOv8 (Ultralytics/PyTorch)
+   NumPy
+   Python 3.8+
 
-OpenCV
-
-YOLOv8 (Ultralytics/PyTorch)
-
-NumPy
-
-Python 3.8+
-
-Install the required packages:
-
-Bash
-
-pip install ultralytics opencv-python numpy
+Install the required packages: pip install ultralytics opencv-python numpy
 
 
 Dataset URL: https://universe.roboflow.com/lung-x8el1/document-detection-v2

@@ -1,9 +1,9 @@
-AI-Powered Document Scanner
+# AI-Powered Document Scanner
 This project uses a custom-trained YOLOv8 object detection model in combination with OpenCV to automatically find documents in images and correct their perspective.
 
 It first locates a document within an image and then applies a series of image processing techniques to find its exact corners. 
 
-Tech Stack:
+### Tech Stack
    
    Python
    OpenCV
@@ -11,7 +11,9 @@ Tech Stack:
    NumPy
    Python 3.8+
 
-Install the required packages: pip install ultralytics opencv-python numpy
+### Install the required packages: 
+pip install ultralytics opencv-python numpy
 
 
-Dataset URL: https://universe.roboflow.com/lung-x8el1/document-detection-v2
+### Dataset URL:
+https://universe.roboflow.com/lung-x8el1/document-detection-v2
